@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html, body{
+    height: 100%;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff !important;
+}
+.main{
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+    height: 100%;
+    width: 190px;
+} 
+.sidebar{
+    /* display: none; */
+    /* padding-top: 10px; */
+    padding-left: 0px;
+    width: 100%;
+    /* flex-shrink: 0; */
+    background-color: orange;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar-item{
+    padding: .5em;
+    display: block;
+    transition: background-color .15s;
+}
+/* .sidebar-item:hover{
+    background-color: orangered;
+
+} */
+.sidebar-title{
+    display: flex;
+    /* font-size: 1.25em; */
+    
+    padding: 15px;
+}
+.sidebar-name{
+    margin-left: .25em;
+    font-size: 1.05em;
+    display:inline;
+    /* font-weight: 350; */
+}
+.sidebar-title .toggle-btn{
+    cursor: pointer;
+    transition: transform .3s;
+}
+.sidebar-item.open > .sidebar-title .toggle-btn{
+    transform: rotate(180deg);
+}
+
+.sidebar-content{
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+}
+.sidebar-item.open > .sidebar-content{
+    height: auto;
+}
+.sidebar-title.plain{
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar-title.plain:hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+.sidebar-title.plain:focus{
+    background-color: orangered;
+}
+.sidebar-title.plain i{
+    display: inline-block;
+    width: 1em;
+}
+.sidebar-desktop{
+    display: none;
+}
+.sidebar-view{
+    display: none;
+    height: 100%;
+    width:100%;
+    background-color: orange;
+}
+.sidebar-mobile{
+    display: none;
+    background-color: orange;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width:980px) {
+    .main{
+        width: 50px;
+    }
+    
+    .sidebar-desktop{
+        display: block;
+    }
+    .sidebar-mobile{
+        display: block;
+        background-color: orange;
+        
+    }
+    .no-title{
+        display: none;
+    }
+    .sidebar-view {
+        display: block;
+        width: 50px;
+        background-color: orange;
+    }
+    .sidebar-view .no-title{
+        display: inline-block;
+        font-size: 50%;
+        
+    }
+    .main2{
+        width: 100px;
+        background-color: orange;
+    }
+    .sidebar-view .sidebar-title.plain:hover{
+        background-color: orangered;
+        text-decoration: none;
+    }
+    .sidebar-title.plain:focus{
+        background-color: orangered;
+        text-decoration: none;
+    }
+    .sidebar-view .sidebar-title.plain{
+        width: 100px;
+    }
+    
+
+    
+    
+}

@@ -1,0 +1,17 @@
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: rgb(255, 230, 221);
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(213, 213, 213, 0.03);
+}
+body {
+  /* font-family: "Jua", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif; */
+}
+* {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Jua", sans-serif;
+  font-family: "Nunito", sans-serif; */
+}

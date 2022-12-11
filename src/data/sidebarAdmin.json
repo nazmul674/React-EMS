@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Dashboard",
+    "icon": "bi bi-speedometer2",
+    "path": "/dashboard"
+  },
+  {
+    "title": "Equipments",
+    "icon": "bi bi-basket",
+    "path": "/equipments"
+  },
+  {
+    "title": "Cabinets",
+    "icon": "bi bi-inboxes",
+    "path": "/cabinets"
+  },
+  {
+    "title": "Requisitions",
+    "icon": "bi bi-mailbox",
+    "path": "/requisitions"
+  },
+  {
+    "title": "Users",
+    "icon": "bi bi-person-bounding-box",
+    "path": "/profile"
+  },
+  {
+    "title": "My Equipments",
+    "icon": "bi bi-cart",
+    "path": "/myequipments"
+  },
+  {
+    "title": "Logout",
+    "icon": "bi bi-box-arrow-left",
+    "path": "/logout"
+  }
+]

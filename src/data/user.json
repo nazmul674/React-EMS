@@ -1,0 +1,51 @@
+[
+    {
+        "user_id": "001",
+        "email"  : "admin@admin.com",
+        "name" : "Admin",
+        "password": "admin",
+        "role" : "admin"
+    },
+    {
+        "user_id": "002",
+        "email"  : "sazzadul@coderex.co",
+        "name" : "Sazzad",
+        "password": "user",
+        "role" : "user"
+    },
+    {
+        "user_id": "003",
+        "email"  : "sazzad.sowmik@gmail.com",
+        "name" : "SazzadAdmin",
+        "password": "admin",
+        "role" : "admin"
+    },
+    {
+        "user_id": "004",
+        "email"  : "babor@coderex.co",
+        "name" : "Babor",
+        "password": "user",
+        "role" : "user"
+    },
+    {
+        "user_id": "093",
+        "email"  : "ayon@coderex.co",
+        "name" : "Ayon",
+        "password": "user",
+        "role" : "user"
+    },
+    {
+        "user_id": "094",
+        "email"  : "soron@coderex.co",
+        "name" : "Soron",
+        "password": "user",
+        "role" : "user"
+    },
+    {
+        "user_id": "096",
+        "email"  : "tohin@coderex.co",
+        "name" : "Tohin",
+        "password": "user",
+        "role" : "user"
+    }
+]

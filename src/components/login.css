@@ -1,0 +1,16 @@
+.loginIcon{
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: orange !important;
+    border-color: orange !important;
+    margin-top: 30px;
+}
+
+.svg{
+    height: 400px;
+    width: 600px;
+}

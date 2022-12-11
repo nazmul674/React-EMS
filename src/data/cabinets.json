@@ -1,0 +1,30 @@
+[
+    {
+        "cabinet_id": "005",
+        "location"  : "Kitchen",
+        "row"       : "2",
+        "cabinet_no": "1",
+        "capacity" : "20"
+    },
+    {
+        "cabinet_id": "006",
+        "location"  : "Workstation",
+        "row"       : "1",
+        "cabinet_no": "1",
+        "capacity" : "15"
+    },
+    {
+        "cabinet_id": "007",
+        "location"  : "Workstation",
+        "row"       : "3",
+        "cabinet_no": "2",
+        "capacity" : "15"
+    },
+    {
+        "cabinet_id": "008",
+        "location"  : "Kitchen",
+        "row"       : "1",
+        "cabinet_no": "3",
+        "capacity" : "20"
+    }
+]

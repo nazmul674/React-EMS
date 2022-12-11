@@ -1,0 +1,54 @@
+.grid-container{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;  */
+}
+.dashboard-1{
+    display: flex;
+    
+}
+.dashboard{
+    padding: 20px;
+    /* justify-content: center; */
+    width: 100%;
+    
+}
+.card-container{
+    margin-bottom: 15px;
+    
+}
+.container-card2{
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-border{
+    box-shadow: 0px 10px 28px grey;
+    margin: 0px 10px;
+}
+.text-uppercase{
+    padding-top: 10px;
+}
+
+
+.card-box{
+    border-radius: 10px;
+}
+.card-1{
+    width: 54.333333% !important;
+}
+.pie-chart{
+    margin-left: 100px;
+}
+@media screen and (max-width : 1211px) {
+    .pie-chart{
+        margin-left : 300px;
+    }
+    .card-border{
+        width: 100% !important;
+    }
+    .card-2{
+        margin-top: 20px !important;
+    }
+   
+}
